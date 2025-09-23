@@ -15,15 +15,15 @@ For our taxonomy, we categorize existing approaches into three main groups, data
 The outline corresponds to the taxonomy in our survey paper.
 
 - [1. Data-level](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#1-Data-Level)
-  - [1.1 Generating Samples from Molecules](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#11-Generating-Samples-from-Molecules)
-  - [1.2 Modeling Implicit Relations of Molecules](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#12-Modeling-Implicit-Relations-of-Molecules)
+  - [1.1 Generative Molecule Data Augmentation](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#11-Generating-Samples-from-Molecules)
+  - [1.2 Implicit Molecule Relation Construction](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#12-Modeling-Implicit-Relations-of-Molecules)
   - [1.3 Hybird Methods](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#13-Hybird-Methods)
 - [2. Model-level](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#2-Model-level)
   - [2.1 Molecular Intrinsic Representation Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#21-Molecular-Intrinsic-Representation-Learning)
-  - [2.2 Molecular Context-Aware Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#22-Molecular-Context-Aware-Learning)
+  - [2.2 Molecular Context-aware Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#22-Molecular-Context-Aware-Learning)
 - [3. Learning Paradigm](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#3-Learning-Paradigm)
   - [3.1 Adapter-based Intrinsic Generalization Mechanisms](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#31-Adapter-based-Intrinsic-Generalization-Mechanisms)
-  - [3.2 Algorithm Redefinition-Based Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Algorithm-Redefinition-Based-Parameter-Optimization-Strategies)
+  - [3.2 Algorithm Redefinition-based Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Algorithm-Redefinition-Based-Parameter-Optimization-Strategies)
   - [3.3 Other Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#33-Other-Strategies)
 
 ## Datasets
@@ -37,7 +37,6 @@ The outline corresponds to the taxonomy in our survey paper.
 | ToxCast   | -                   | 8,575      | 617    | 451          | 158         | 14.97          | 12.60   | 72.43     |
 | MUV       | -                   | 93,127     | 17     | 12           | 5           | 84.21          | 0.31    | 15.76     |
 | PCBA      | -                   | 437,929    | 128    | 118          | 10          | 39.92          | 0.84    | 59.84     |
-| LSC       | -                   | 449,391    | 1310   | -            | -           | -              | -       | -         |
 | QM9       | ✓                   | 133,885    | 12     | 9            | 3           | -              | -       | -         |
 | FS-Mol    | ✓                   | 233,786    | 5120   | 4938         | 157         | -              | -       | -         |
 | ExCAPE-ML | ✓                   | 955,386    | 526    | -            | -           | -              | -       | -         |
@@ -66,14 +65,14 @@ The outline corresponds to the taxonomy in our survey paper.
 | --- | -----| -----| ------| -----|
 |Meta-MGNN| Few-shot graph learning for molecular property prediction | WWW 2021 | [PDF](https://arxiv.org/abs/2102.07916) | [Torch](https://github.com/zhichunguo/Meta-MGNN) |
 | MTA | Meta-learning with motif-based task augmentation for few-shot molecular property prediction | SDM 2023 | [PDF](https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.ch91) | [N/A] |
-| Molfescue | Molfescue: enhancing molecular property prediction in data-limited and imbalanced contexts using few-shot and contrastive learning | NeurIPS 2021 | [PDF](https://papers.nips.cc/paper/2021/file/91bc333f6967019ac47b49ca0f2fa757-Paper.pdf) | [Torch](https://github.com/tata1661/PAR-NeurIPS21) |
+| Molfescue | Molfescue: enhancing molecular property prediction in data-limited and imbalanced contexts using few-shot and contrastive learning | Bioinformatics 2024 | [PDF](https://academic.oup.com/bioinformatics/article/40/4/btae118/7616990) | [Torch](https://github.com/zhangruochi/MolFeSCue) |
 
 
 #### 1.1.2 Modeling Implicit Relations of Molecules 
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
-| PAR | Property-aware relation networks for few-shot molecular property prediction | ECML PKDD 2016 | [PDF](https://link.springer.com/chapter/10.1007/978-3-319-46227-1_11) |[N/A]|
+| PAR | Property-aware relation networks for few-shot molecular property prediction | NeurIPS 2021 | [PDF](https://papers.nips.cc/paper/2021/file/91bc333f6967019ac47b49ca0f2fa757-Paper.pdf) | [Torch](https://github.com/tata1661/PAR-NeurIPS21) |
 | CPRG | Chemical property relation guided few-shot molecular property prediction | IJCNN 2022 | [PDF](https://ieeexplore.ieee.org/document/9892419) | [N/A] |
 |Meta-Link| RELATIONAL MULTI-TASK LEARNING: MODELING RELATIONS BETWEEN DATA AND TASKS | ICLR 2022 | [PDF](https://openreview.net/pdf?id=8Py-W8lSUgy) | [Torch](https://github.com/snap-stanford/GraphGym) |
 | IGNTE | Implicit geometry and interaction embeddings improve few- shot molecular property prediction | NeurIPS MLSBW 2023 | [PDF](https://www.mlsb.io/papers_2023/Implicit_Geometry_and_Interaction_Embeddings_Improve_Few-Shot_Molecular_Property_Prediction.pdf) | [Torch](https://github.com/cfifty/IGNITE) |
@@ -85,7 +84,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
-| HSL-RG | Few-shot molecular property prediction via hierar- chically structured learning on relation graphs | Neural Networks 2021 | [PDF](https://www.sciencedirect.com/science/article/pii/S0893608023001685) |  [N/A] |
+| HSL-RG | Few-shot molecular property prediction via hierarchically structured learning on relation graphs | Neural Networks 2021 | [PDF](https://www.sciencedirect.com/science/article/pii/S0893608023001685) |  [N/A] |
 |PG-DERN| Property-guided few-shot learning for molecular property prediction with dual-view encoder and relation graph learning network | IEEE JBHI 2024 | [PDF](https://arxiv.org/abs/2102.07916) | [Torch](https://github.com/Bombtsti/PG-DERN) |
 
 
@@ -96,12 +95,11 @@ The outline corresponds to the taxonomy in our survey paper.
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
 |SMF-GIN| Structure-enhanced meta-learning for few-shot graph classification | AI Open 2021 | [PDF](https://doi.org/10.1016/j.aiopen.2021.08.001) | [Torch](https://github.com/jiangshunyu/SMF-GIN) |
-|Meta-GAT| Few-shot graph learning for molecular property prediction | WWW 2021 | [PDF](https://ieeexplore.ieee.org/document/10059171) | [Torch](https://github.com/lol88/Meta-GAT) |
+|Meta-GAT| Few-shot graph learning for molecular property prediction | IEEE TNNLS 2023 | [PDF](https://ieeexplore.ieee.org/document/10059171) | [Torch](https://github.com/lol88/Meta-GAT) |
 |PH-Mol| Prompting meta-learned hierarchical graph network for molecular property prediction | MedAI 2023 | [PDF](https://ieeexplore.ieee.org/abstract/document/10403216) | [Torch](https://github.com/HICAI-ZJU/PH-Mol) |
 |FS-GNNcvTR| Convolutional Transformer via Graph Embeddings for Few-shot Toxicity and Side Effect Prediction | ESANN 2023 | [PDF](https://www.esann.org/sites/default/files/proceedings/2023/ES2023-66.pdf) | [N/A] |
 |FS-GNNTR| Few-shot learning with transformers via graph embeddings for molecular property prediction | ESWA 2023 | [PDF](https://www.sciencedirect.com/science/article/pii/S0957417423005079) | [Torch](https://github.com/ltorres97/FS-GNNTR) |
-|APN| Attribute-guided prototype network for few-shot
-molecular property prediction | BIB 2024 | [PDF](https://doi.org/10.1093/bib/bbae394) | [Torch](https://github.com/hou29/few-shot-MPP) |
+|APN| Attribute-guided prototype network for few-shot molecular property prediction | BIB 2024 | [PDF](https://doi.org/10.1093/bib/bbae394) | [Torch](https://github.com/hou29/few-shot-MPP) |
 |FS-CrossTR| Multi-scale cross-attention transformer via graph embeddings for few-shot molecular property prediction | ASoC 2024 | [PDF](https://doi.org/10.1016/j.asoc.2024.111268) | [Torch](https://github.com/ltorres97/FS-CrossTR) |
 |AttFPGNN-MAML| Meta learning with attention based fp-gnns for few-shot molecular property prediction | ACS Omega 2024 | [PDF](https://pubs.acs.org/doi/pdf/10.1021/acsomega.4c02147) | [Torch](https://github.com/sanomics-lab/AttFPGNN-MAML) |
 |FS-GcvTR| Rethinking transformers with convolution and graph embeddings for few-shot molecular property discovery | Pattern Recognition 2025 | [PDF](https://doi.org/10.1016/j.patcog.2025.111657) | [Torch]( https://github.com/ltorres97/FSGCvTR) |
@@ -112,11 +110,11 @@ molecular property prediction | BIB 2024 | [PDF](https://doi.org/10.1093/bib/bba
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
-|IterRefLSTM| Low data drug discovery with one-shot learning | WWW 2021 | [PDF](https://pubs.acs.org/doi/pdf/10.1021/acscentsci.6b00367) | [Tensorflow](https://github.com/deepchem/deepchem) |
+|IterRefLSTM| Low data drug discovery with one-shot learning | ACS central science 2017 | [PDF](https://pubs.acs.org/doi/pdf/10.1021/acscentsci.6b00367) | [Tensorflow](https://github.com/deepchem/deepchem) |
 |CAMP| In-context learning for few-shot molecular property prediction | arXiv 2023 | [PDF](https://arxiv.org/pdf/2310.08863) | [N/A] |
 |MHNfs| CONTEXT-ENRICHED MOLECULE REPRESENTATIONS IMPROVE FEW-SHOT DRUG DISCOVERY | ICLR 2023 | [PDF](https://openreview.net/pdf?id=XrMWUuEevr) | [Torch](https://github.com/ml-jku/MHNfs) |
-|CRA| Contextual Representation Anchor Network for Mitigating Selection Bias in Few-Shot Drug Discovery | arXiv 2024 | [PDF](https://arxiv.org/abs/2102.07916) | [N/A] |
-|ICLPP| In-Context Learning of Physical Properties: Few-Shot Adaptation to Out-of-Distribution Molecular Graphs | arXiv 2024 | [PDF](https://arxiv.org/pdf/2406.01808) | [Torch](https://github.com/zhichunguo/Meta-MGNN) |
+|CRA| Contextual Representation Anchor Network for Mitigating Selection Bias in Few-Shot Drug Discovery | arXiv 2024 | [PDF](https://arxiv.org/pdf/2410.20711) | [N/A] |
+|ICLPP| In-Context Learning of Physical Properties: Few-Shot Adaptation to Out-of-Distribution Molecular Graphs | arXiv 2024 | [PDF](https://arxiv.org/pdf/2406.01808) | [N/A] |
 |MolecularGPT| MolecularGPT：Open Large Language Model (LLM) for Few-Shot Molecular Property Prediction | arXiv 2024 | [PDF](https://arxiv.org/abs/2406.12950) | [Torch](https://github.com/NYUSHCS/MolecularGPT) |
 |UniMatch| UNIMATCH：UNIVERSAL MATCHING FROM ATOM TO TASK FOR FEW-SHOT DRUG DISCOVERY | ICLR 2025 | [PDF](https://iclr.cc/media/iclr-2025/Slides/27929.pdf) | [Torch](https://github.com/Lirain21/UniMatch.git) |
 
@@ -137,14 +135,14 @@ molecular property prediction | BIB 2024 | [PDF](https://doi.org/10.1093/bib/bba
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
 | ADKF-IFT | Meta-learning adaptive deep kernel gaussian processes for molecular property prediction | ICLR 2023 | [PDF](https://wenlin-chen.github.io/publication/chen2023meta/chen2023meta.pdf) | [Torch](https://github.com/Wenlin-Chen/ADKF-IFT)|
-|QUADRATIC-PROBE| A Strong Baseline for Molecular Few-Shot Learning | Transactions on Machine Learning Research 2025 | [PDF](https://openreview.net/pdf?id=JQ0agisXny) | [Torch](https://github.com/Fransou/Strong-Baseline-Molecular-FSL) |
+|QUADRATIC-PROBE| A Strong Baseline for Molecular Few-Shot Learning | TMLR 2025 | [PDF](https://openreview.net/pdf?id=JQ0agisXny) | [Torch](https://github.com/Fransou/Strong-Baseline-Molecular-FSL) |
 
 #### 3.3 Other Strategiess
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
 |Meta-MolNet| Meta-MolNet: A Cross-Domain Benchmark for Few Examples Drug Discovery | IEEE TNNLS 2024 | [PDF](https://ieeexplore.ieee.org/document/10436119) | [Torch](https://github.com/lvqiujie/Meta-MolNet) |
-|  AR-APM | Autoregressive activity prediction for low-data drug discovery | ICLR 2024 PML4LRS | [PDF](https://openreview.net/pdf?id=x8mBneTsyF) | [Torch](https://github.com/ml-jku/autoregressive_activity_prediction)|
+|  AR-APM | Autoregressive activity prediction for low-data drug discovery | JDMLR 2024 | [PDF](https://openreview.net/pdf?id=x8mBneTsyF) | [Torch](https://github.com/ml-jku/autoregressive_activity_prediction)|
 
 
 
@@ -642,3 +640,4 @@ molecular property prediction | BIB 2024 | [PDF](https://doi.org/10.1093/bib/bba
 ## Acknowledgements
 
 This page is contributed and maintained by [Zeyu Wang](https://github.com/Vencent-Won) (Vencent_Wang@outlook.com) and [Xin Zheng](https://github.com/Amanda-Zheng) (xin.zheng@griffith.edu.au). If you have any suggestions or questions, please feel free to contact us.
+
