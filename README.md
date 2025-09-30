@@ -23,7 +23,7 @@ The outline corresponds to the taxonomy in our survey paper.
   - [2.2 Molecular Context-aware Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#22-Molecular-Context-Aware-Learning)
 - [3. Learning Paradigm](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#3-Learning-Paradigm)
   - [3.1 Adapter-based Intrinsic Generalization Mechanisms](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#31-Adapter-based-Intrinsic-Generalization-Mechanisms)
-  - [3.2 Algorithm Redefinition-based Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Algorithm-Redefinition-Based-Parameter-Optimization-Strategies)
+  - [3.2 Reformulated Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Algorithm-Redefinition-Based-Parameter-Optimization-Strategies)
   - [3.3 Other Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#33-Other-Strategies)
 
 ## Datasets
@@ -130,7 +130,7 @@ The outline corresponds to the taxonomy in our survey paper.
 |PACIA| PACIA: Parameter-Efficient Adapter for Few-Shot Molecular Property Prediction | IJCAI 2024 | [PDF](https://www.ijcai.org/proceedings/2024/0576.pdf) | [Torch](https://github.com/LARS-research/PACIA) |
 |Pin-Tuning| Pin-tuning: Parameter-efficient in-context tuning for few-shot molecular property prediction | NeurIPS 2024 | [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/82a9fb94035dad3ec007de4ad13c6748-Paper-Conference.pdf) | [Torch](https://github.com/CRIPAC-DIG/Pin-Tuning) |
 
-#### 3.2 Algorithm Redefinition-Based Parameter Optimization Strategies
+#### 3.2 Reformulated Parameter Optimization Strategies
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -640,4 +640,5 @@ The outline corresponds to the taxonomy in our survey paper.
 ## Acknowledgements
 
 This page is contributed and maintained by [Zeyu Wang](https://github.com/Vencent-Won) (Vencent_Wang@outlook.com) and [Xin Zheng](https://github.com/Amanda-Zheng) (xin.zheng@griffith.edu.au). If you have any suggestions or questions, please feel free to contact us.
+
 
