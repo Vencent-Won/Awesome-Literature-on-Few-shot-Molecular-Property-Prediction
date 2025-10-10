@@ -13,17 +13,17 @@ For our taxonomy, we categorize existing approaches into three main groups, data
 ## Overview
 
 The outline corresponds to the taxonomy in our survey paper.
-
+ 
 - [1. Data-level](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#1-Data-Level)
-  - [1.1 Generative Molecule Data Augmentation](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#11-Generating-Samples-from-Molecules)
-  - [1.2 Implicit Molecule Relation Construction](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#12-Modeling-Implicit-Relations-of-Molecules)
+  - [1.1 Generative Molecule Data Augmentation](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#11-Generative-Molecule-Data-Augmentation)
+  - [1.2 Implicit Molecule Relation Construction](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#12-Implicit-Molecule-Relation-Construction)
   - [1.3 Hybird Methods](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#13-Hybird-Methods)
 - [2. Model-level](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#2-Model-level)
   - [2.1 Molecular Intrinsic Representation Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#21-Molecular-Intrinsic-Representation-Learning)
-  - [2.2 Molecular Context-aware Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#22-Molecular-Context-Aware-Learning)
+  - [2.2 Molecular Context-aware Learning](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#22-Molecular-Context-aware-Learning)
 - [3. Learning Paradigm](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#3-Learning-Paradigm)
-  - [3.1 Adapter-based Intrinsic Generalization Mechanisms](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#31-Adapter-based-Intrinsic-Generalization-Mechanisms)
-  - [3.2 Reformulated Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Algorithm-Redefinition-Based-Parameter-Optimization-Strategies)
+  - [3.1 Adapter-based Generalization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#31-Adapter-based-Generalization-Strategies)
+  - [3.2 Reformulated Parameter Optimization Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#32-Reformulated-Parameter-Optimization-Strategies)
   - [3.3 Other Strategies](https://github.com/Vencent-Won/Awesome-Literature-on-Few-shot-Molecular-Property-Prediction#33-Other-Strategies)
 
 ## Datasets
@@ -59,7 +59,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ### 1. Data-Level
 
-#### 1.1 Generating Samples from Molecules
+#### 1.1 Generative Molecule Data Augmentation
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -68,7 +68,7 @@ The outline corresponds to the taxonomy in our survey paper.
 | Molfescue | Molfescue: enhancing molecular property prediction in data-limited and imbalanced contexts using few-shot and contrastive learning | Bioinformatics 2024 | [PDF](https://academic.oup.com/bioinformatics/article/40/4/btae118/7616990) | [Torch](https://github.com/zhangruochi/MolFeSCue) |
 
 
-#### 1.1.2 Modeling Implicit Relations of Molecules 
+#### 1.1.2 Implicit Molecule Relation Construction 
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -106,7 +106,7 @@ The outline corresponds to the taxonomy in our survey paper.
 |AdaptMol| AdaptMol：Adaptive Fusion from Sequence String to Topological Structure for Few-shot Drug Discovery | arXiv 2025 | [PDF](https://arxiv.org/abs/2505.11878) | [N/A] |
 
 
-#### 2.2 Molecular Context-Aware Learning
+#### 2.2 Molecular Context-aware Learning
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -121,7 +121,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ### 3. Learning Paradigm
 
-#### 3.1 Adapter-based Intrinsic Generalization Mechanisms
+#### 3.1 Adapter-based Generalization Strategies
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -640,5 +640,6 @@ The outline corresponds to the taxonomy in our survey paper.
 ## Acknowledgements
 
 This page is contributed and maintained by [Zeyu Wang](https://github.com/Vencent-Won) (Vencent_Wang@outlook.com) and [Xin Zheng](https://github.com/Amanda-Zheng) (xin.zheng@griffith.edu.au). If you have any suggestions or questions, please feel free to contact us.
+
 
 
