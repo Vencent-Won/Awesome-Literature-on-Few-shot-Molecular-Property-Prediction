@@ -68,7 +68,7 @@ The outline corresponds to the taxonomy in our survey paper.
 | Molfescue | Molfescue: enhancing molecular property prediction in data-limited and imbalanced contexts using few-shot and contrastive learning | Bioinformatics 2024 | [PDF](https://academic.oup.com/bioinformatics/article/40/4/btae118/7616990) | [Torch](https://github.com/zhangruochi/MolFeSCue) |
 
 
-#### 1.1.2 Implicit Molecule Relation Construction 
+#### 1.2 Implicit Molecule Relation Construction 
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -80,7 +80,7 @@ The outline corresponds to the taxonomy in our survey paper.
 |KRGTS| Knowledge-enhanced relation graph and task sam- pling for few-shot molecular property prediction | Information Sciences 2025 | [PDF](https://arxiv.org/pdf/2405.15544) | [Torch](https://github.com/Vencent-Won/KRGTS-public) |
 
 
-#### 1.1.3 Hybird Methods
+#### 1.3 Hybird Methods
 
 | Name| Title| Venue| Paper | Code |
 | --- | -----| -----| ------| -----|
@@ -640,6 +640,7 @@ The outline corresponds to the taxonomy in our survey paper.
 ## Acknowledgements
 
 This page is contributed and maintained by [Zeyu Wang](https://github.com/Vencent-Won) (Vencent_Wang@outlook.com) and [Xin Zheng](https://github.com/Amanda-Zheng) (xin.zheng@griffith.edu.au). If you have any suggestions or questions, please feel free to contact us.
+
 
 
 
